@@ -1,0 +1,12 @@
+name: wax
+version: "0.1.0"
+license: free
+runtime: binary
+binary: handler.sh
+actions: [ping, which, sign, verify, seal, open, finish]
+timeout_sec: 20
+data_dir: data
+needs_docker: false
+description: >
+  Sign keeps/brine bundles with minisign when present, else a local
+  HMAC fixture. Seal with age when present. Never holds the keeps AES key.

@@ -1,0 +1,9 @@
+{
+  "name": "wax",
+  "version": "0.1.0",
+  "license": "free",
+  "author_email": "dev@localhost",
+  "source": "",
+  "description": "minisign/age wrapper for keeps bundles. HMAC fixture when binaries are missing.",
+  "actions": "ping,which,sign,verify,seal,open,finish"
+}
